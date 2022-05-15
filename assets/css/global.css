@@ -1,0 +1,290 @@
+
+body{
+    font-family: manrope;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.hero-banner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.services-one{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 4rem;
+    margin: 0 2rem;
+}
+.d-flex{
+    display: flex;
+}
+.first-sidebar{
+    width: 45%;
+}
+@media screen and (max-width:500px) {
+      .hero-banner{
+          display: block;
+      }
+     .hero-title{
+            font-size: 2rem;
+     }
+    .second-sidebar{
+        min-width: 100%;
+    }
+    .first-sidebar{
+        width: 100%;
+    }
+    .para1{
+        width: 100%;
+    }
+    .services-one {
+        display: block;
+        padding:0;
+        margin: 0 2rem;
+    }
+}
+.font-2rem{
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.para1, .para2{
+    max-width: 45%;
+}
+.second-sidebar{
+    min-width: 50%;
+    background-image: url("../img/thumbnail.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    position: relative;
+}
+.open-time{
+    padding-top: 4rem;
+}
+small{
+    color: #939191;
+}
+.rate{
+    width: 25rem;
+    position: absolute;
+    left:14rem;
+    top:25rem;
+}
+.quick-service{
+    width: 25rem;
+    position:absolute;
+    left:-7rem;
+}
+.hero-title{
+    font-size: 3rem;
+}
+.second-sidebar img{
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.hightlighly{
+    background:#E2E6E9;
+    margin: 3rem 0 ;
+}
+.m-3rem {
+    margin-top: 1rem;
+    margin-left:2rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #1E1B1B;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem 0;
+}
+.whatsapp{
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+.whatsapp-icon{
+    padding-right: 1rem;
+}
+.navbar, .nav-item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-item li{
+    padding-right: 1rem;
+}
+.accodo ul li{
+    background-color: white;
+    padding: 0.94rem;
+    text-align: left;
+    border-bottom: solid 2px #cccccc;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    flex-wrap: wrap;
+   padding: 0 4rem;
+    margin: 0 3rem;
+}
+
+.sidebar-left{
+ width: 50%;
+}
+.sidebar-right{
+ width: 40%;
+ padding: 20px;
+}
+
+.list-items{
+ display: flex;
+ align-items: center; 
+}
+
+.dash-line{
+position: absolute;
+margin-left: 3.5rem;
+margin-top: -2.4rem;
+}
+
+.circle{
+ padding: 2rem;
+}
+
+.icon{
+ padding: 1rem 0;
+}
+
+.para{
+ color: #1E1B1B;
+ font-size: 16px;
+ margin-top: -1rem;
+}
+.quote{
+ margin-top:1rem;
+}
+
+h2{
+ font-family: 'Manrope';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 54px;
+}
+
+.services{
+  width: 100%;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+.image1, .image2{
+  display: flex;
+  justify-content: center;
+  padding:0.1rem;
+    flex-wrap: wrap;
+}
+.image img, .image2 img{
+ padding:0.34rem ;
+}
+
+.offer{
+ padding: 3rem;
+}
+
+.offer h2{
+ display: flex;
+ justify-content: center;
+ margin: 1rem 0;
+}
+
+.card {
+   background-color: #ffffff;
+    padding: 3rem;
+    display: flex;
+    flex-flow: column;
+    margin: 0.3rem;
+    width: 15%;
+    align-items: center;
+}
+
+.bg-warning{
+ background-color: #FF6433;
+ color: #ffffff;
+}
+
+.counter{
+ display: flex;
+ justify-content: space-around;
+ padding: 3rem 0;
+}
+
+.counter .text-primary{
+  font-weight: 800;
+  font-size: 58px;
+  color: #661CE7;
+  margin-bottom: 0;
+}
+
+.learn-more{
+  display: flex;
+  justify-content: end;
+  margin-right: 5rem;
+  padding: 2rem;
+}
+
+.card-title{
+ margin-top:0.75rem;
+}
+
+.content-one{
+    width: 38%;
+    height: 360px;
+    background-color: #FF6433;
+    position: absolute;
+    left: 20%;
+    margin-top: -22rem;
+}
+.content-one h3{
+    text-align: center;
+    margin-top: 5rem;
+    color: #ffff;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 2rem 1rem;
+}
+.innerbg img{
+    overflow: hidden;
+}
+.innerbg{
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+.hero-bg{
+    margin: 3rem 0;
+}
+.wrapper{
+    background-color: #FAFAFA;
+    padding: 4rem;
+}
+
+.branding h1{
+    padding-top: 45px;
+    margin-bottom: 15px;
+
+}
