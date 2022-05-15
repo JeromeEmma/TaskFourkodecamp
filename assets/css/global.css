@@ -25,35 +25,63 @@ body{
 .first-sidebar{
     width: 45%;
 }
-@media screen and (max-width:500px) {
+@media only screen and (max-width: 768px) {
       .hero-banner{
-          display: block;
+          display: block !important;
       }
      .hero-title{
-            font-size: 2rem;
+            font-size: 2rem !important;
      }
     .second-sidebar{
-        min-width: 100%;
+        min-width: 100% !important;
     }
-    .first-sidebar{
-        width: 100%;
+    .first-sidebar, .sidebar-left, .sidebar-right{
+        width: 100% !important;
+        padding: 0!important;
     }
-    .para1{
-        width: 100%;
+    .para1, .para2{
+        max-width: 100% !important
     }
     .services-one {
-        display: block;
-        padding:0;
+        display: block!important;
+        padding:0!important;
         margin: 0 2rem;
+    }
+    h2{
+        font-size:32px!important;
+    }
+    .content {
+        display: block!important;
+        padding:0!important;
+        margin: 0 3rem;
+    }
+    .rate{
+        width: 25rem;
+        position: absolute;
+        left:0!important;
+        top:25rem;
+    }
+    .innerbg img{
+        display: none;!important;
+    }
+    .content-one {
+        width: 100% !important;
+        height: 150px!important;
+        position: relative!important;
+         left:0!important;
+    }
+
+    .content-one h3 {
+        font-size: 20px!important;
     }
 }
 .font-2rem{
     font-size: 2rem;
     margin-left: 2rem;
 }
-.para1, .para2{
-    max-width: 45%;
-}
+    .para1, .para2{
+        max-width: 45%;
+    }
 .second-sidebar{
     min-width: 50%;
     background-image: url("../img/thumbnail.png");
@@ -142,7 +170,6 @@ nav{
    padding: 0 4rem;
     margin: 0 3rem;
 }
-
 .sidebar-left{
  width: 50%;
 }
@@ -228,9 +255,11 @@ h2{
 }
 
 .counter{
- display: flex;
- justify-content: space-around;
- padding: 3rem 0;
+     display: flex;
+     justify-content: space-around;
+     padding: 3rem 0;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .counter .text-primary{
