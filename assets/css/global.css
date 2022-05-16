@@ -70,7 +70,6 @@ body{
         position: relative!important;
          left:0!important;
     }
-
     .content-one h3 {
         font-size: 20px!important;
     }
@@ -210,9 +209,39 @@ h2{
  font-family: 'Manrope';
  font-style: normal;
  font-weight: 800;
- font-size: 54px;
+ font-size: 3rem;
+}
+.label{
+    display: flex;
+    justify-content: space-between;
+}
+.faq{
+background-color: #E2E6E9;
+    padding: 3rem;
+}
+.accordion{
+    padding:0.78rem;
+    margin: 3rem auto;
+    width: 50%;
 }
 
+.accordion .container {
+    position: relative;
+    margin: 10px 10px;
+}
+ .accordion{
+     margin: 0.78rem auto;
+    color: black;
+    background-color: white;
+}
+.label-title{
+    font-weight: bold;
+}
+
+.faq-title{
+    text-align: center;
+    font-size:2.46rem;
+}
 .services{
   width: 100%;
   background-color: #F2F2F2;
@@ -316,4 +345,62 @@ h2{
     padding-top: 45px;
     margin-bottom: 15px;
 
+}
+.bg-grey{
+    background-color: #F2F2F2;
+}
+.testimonial{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 6rem ;
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+.cards{
+    background-color: #ffffff;
+    padding: 3rem;
+    margin-right: 2rem;
+}
+.card-title{
+    margin-left: 0.43rem;
+    margin-top: 0.54rem;
+}
+.card-title p{
+    font-weight:600;
+}
+
+.card-image{
+    display: flex;
+    margin-bottom: 1rem;
+}
+footer{
+    background-color: #1E1B1B;
+     color: #ffffff;
+}
+footer nav{
+    background: #1E1B1B;
+    box-shadow: 20px 10px 10px 0px;
+    padding: 0;
+}
+.social{
+    padding-top: 2rem;
+}
+.social-icon{
+    padding-right:1rem;
+}
+.footer-h2{
+    font-size: 2rem;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    padding:1rem 0;
+}
+
+footer nav ul li a{
+    color: #ffffff;
 }
