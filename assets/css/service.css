@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'manrope', sans-serif;
+}
+.navbar, .nav-item ul li{
+    list-style: none;
+    padding: 1rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem 0;
+}
+.whatsapp{
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+.whatsapp-icon{
+    padding-right: 1rem;
+}
+.navbar, .nav-item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-item li{
+    padding-right: 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0b0d10;
+}
+
+ul{
+    list-style: none;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.title-banner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    right: 10%;
+    margin-top: 2rem;
+}
+.btn-warning{
+    background-color:#FF6433;
+    padding: 1rem;
+    margin: 1.98rem 0;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    width: 40%;
+    text-align: center;
+    font-size:16px;
+    border: none;
+}
+.btn-warning a{
+    color: #ffffff;
+    font-size: 18px;
+}
+.diagnostics{
+   background-color:#F5F5F5;
+    margin-top: 3rem;
+ }
+.p-3{
+   padding: 4rem;
+}
+.card {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 1rem;
+
+}
+p{
+    font-size: 16px;
+    line-height: 1.75rem;
+}
+a{
+    text-decoration: none;
+    color: #0b0d10;
+}
+.card p{
+   color:#232536;
+    margin-bottom: 1rem;
+}
+ h3{
+    font-size:1.78rem;
+     font-weight: bold;
+     margin: 1rem 0;
+}
+.content {
+    width: 50%;
+}
+.row{
+     display: flex;
+     justify-content: center;
+     padding: 0.1rem;
+     flex-wrap: wrap;
+ }
+.col-4{
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-flow: column;
+    margin: 0.3rem;
+    width: 40%;
+    align-items: center;
+}
+.icon-item{
+    display: flex;
+    padding: 0.43rem;
+}
+.moto-part, .repair-img{
+    width: 33%;
+}
+.moto-part h3{
+    font-size: 2rem;
+}
+.moto-part .icon-item p {
+    margin-left: 1rem;
+}
+.col-4 p{
+    margin-top: 1rem;
+}
+.thumbnail-img, .equipment{
+    display: flex;
+}
+.thumbnail, .repair-car {
+    width: 50%;
+}
+.repair-car{
+    padding: 0 5rem;
+    margin-left: 2rem;
+}
+.repair-car h3{
+    font-size: 2.45rem;
+}
+.equipment{
+    margin-top:2rem;
+}
+.thumbnail-img img, .equipment img {
+    height: 350px;
+    margin-left: 1rem;
+}
+.mechanic{
+    width: 50%;
+    height: 350px;
+}
+.mechanic img{
+    height: 350px;
+}
+.services{
+    width: 40%;
+    position: absolute;
+    background-color: #1E1B1B;
+    color: #ffffff;
+    padding: 0 2rem;
+    height: 350px;
+    top: 0;
+    margin-left: 25em;
+}
+.services .description{
+    padding: 2rem;
+}
+.description p{
+    line-height: 2rem;
+    font-size: 16px;
+    margin-top: 0.4rem;
+}
+.description h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+img{
+    max-width: 100%;
+}
+
+footer{
+    background-color: #1E1B1B;
+    color: #ffffff;
+}
+.foot-bottom {
+    background-color: #1E1B1B;
+    box-shadow: 20px 10px 10px 0px;
+    padding: 1rem;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social{
+    padding-top: 2rem;
+}
+.social-icon{
+    padding-right:1rem;
+}
+small {
+    color: #939191;
+}
+ footer p{
+     margin: 0;
+ }
+.my-4{
+    margin: 1rem 0 ;
+}
+.footer-h2{
+    font-size: 2rem;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    padding:5rem;
+}
+footer .footer-menu ul li a{
+    color: #ffffff;
+}
